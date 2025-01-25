@@ -16,8 +16,9 @@ void loop() {
     delay(10);  // Allow the current to stabilize
     
     for (int col = A3; col <= A7; col++) {
-      int value = analogRead(col);
-      data += String(value);
+      float value = analogRead(col);
+      float mapped = value / 4092 * 5;
+      data += String(mapped);
       if (col < A7) {
         data += ",";
       }
