@@ -6,7 +6,7 @@ import csv
 import os
 from time import time
 
-data_dir = r'C:\Users\12392\Desktop\Sole Pressure Sensor/Data'
+data_dir = r'Put path to file here'
 
 
 # Set up the serial connection
