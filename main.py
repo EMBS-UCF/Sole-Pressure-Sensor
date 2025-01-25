@@ -59,7 +59,7 @@ if __name__ == '__main__':
     with open(file_path, "w", newline="") as csv_file:
 
         writer = csv.writer(csv_file)
-        writer.writerow(["Time, 0x0, 0x1, 0x2, 0x3, 0x4, 1x0, 1x1, 1x2, 1x3, 1x4, 2x0, 2x1, 2x2, 2x3, 2x4"])
+        writer.writerow(["Time", "0x0", "0x1", "0x2", "0x3", "0x4", "1x0", "1x1", "1x2", "1x3", "1x4", "2x0", "2x1", "2x2", "2x3", "2x4"])
 
         # Main function to run the animation
         try:
